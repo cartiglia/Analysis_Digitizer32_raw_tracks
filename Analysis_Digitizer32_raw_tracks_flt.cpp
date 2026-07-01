@@ -102,8 +102,11 @@ int main()
   float TrailTValuesF[TrailNArrayF];
   int TrailNTValuesF[TrailNArrayF];
 
-  int AcCh[36] = {1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
-		  1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0};
+  // Active-channel mask: skips the per-sample analysis loops for channels
+  // with no real data, to avoid wasting time on empty waveforms.
+  int AcCh[36] = {1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,   // ch 0-16: waveforms used
+		  0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,        // ch 17-31: unused
+		  1,1,1,1};                             // ch 32-35: trigger
 
   //samples in t
   InputCARD >> pip >> ntmp;
@@ -480,6 +483,7 @@ int main()
 
 	  for(i=0;i<nchro;i++)
 	    {
+	      if (!AcCh[i]) continue;
 	       DTCh0i[i] = 0;
 	      if (ntmp>0) sprintf(number,"%d", ntrig);
 	      if (ntmp<0) sprintf(number,"%d", ntrig);
@@ -635,6 +639,7 @@ int main()
 
 	  for(i=0;i<nchro;i++)
 	       {
+	      if (!AcCh[i]) continue;
 
 	      if (FreqCut[i] == 0)
 		{
@@ -704,6 +709,7 @@ int main()
 
 	  for(i=0;i<nchro;i++)
 	    {
+	      if (!AcCh[i]) continue;
 
 	      NArr = 0;
 	      for (int kl = 0; kl<NArrayL; kl++)
