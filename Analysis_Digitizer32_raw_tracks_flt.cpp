@@ -319,7 +319,8 @@ int main()
 
       if(!Filein.is_open())
 	{
-	  std::cout << "Tracker file failed" << std::endl;
+	  std::cout << "Tracker file failed: " << TrkFile << std::endl;
+	  exit(1);
 	}
       else { std::cout << "Opened file " << TrkFile << std::endl;
              std::string _hdr; std::getline(Filein, _hdr); } // skip CSV header
@@ -466,6 +467,11 @@ int main()
 	    while(std::getline(_ss,_t,'\t') && _nv<8)
 	      try{_v[_nv++]=std::stof(_t);}catch(...){}
 	    ntrk=(int)_v[0]; xtrk1=_v[1]; ytrk1=_v[2]; xtrk2=_v[3]; ytrk2=_v[4]; trkchi2=_v[7];
+	    if (xtrk1==0 && ytrk1==0) {
+	      std::cout << "Error: track coordinates x=y=0 at trigger " << ntrig
+	                << " -- wrong tracker file format?" << std::endl;
+	      exit(1);
+	    }
 	  }
 
 	  //	  cout << ntrk << " " << xtrk1 << " " << ytrk1 << endl;
