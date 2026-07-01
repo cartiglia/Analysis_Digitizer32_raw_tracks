@@ -1,0 +1,731 @@
+Max_number_channels 36
+FWaveform 0
+Run 1
+StartingTrig 0
+Nchannel  36
+MaxEvent  -1
+nMCP 0
+txt /Volumes/Expansion/TB11/Tracks/run3.txt
+ana /Volumes/Expansion/TB11/Data/Run3_DCsquare_500um_new_board1_tracker3_240V_20C.root 
+nmedia 1
+Run -1
+
+
+txt   /Volumes/TOSHIBA_NC/TB10/Tracks_new/627_100um_window.csv
+ana /Volumes/TOSHIBA_NC/TB10/Data_wfm/run627_240V_240V_220V.root 
+
+txt   /Volumes/TOSHIBA_NC/TB10/Tracks_new/627_100um_window.txt
+
+Run 626
+StartingTrig 0
+Nchannel  36
+MaxEvent  10000
+nMCP 28
+txt   /Volumes/TOSHIBA_NC/TB10/Tracks_new/627_100um_window_5chi2.txt 
+ana /Volumes/TOSHIBA_NC/TB10/Data_wfm/run626_240V_240V_220V.root 
+
+Run -1
+
+
+
+nMCP 28
+txt  /Volumes/TOSHIBA_NC/TB10/Tracks/630.txt 
+ana /Volumes/TOSHIBA_NC/TB10/Data_wfm/run630_180V_180V_220V.root 
+nmedia 5
+Run 629
+StartingTrig 0
+Nchannel  36
+MaxEvent  -1
+nMCP 28
+txt  /Volumes/TOSHIBA_NC/TB10/Tracks/629.txt 
+ana /Volumes/TOSHIBA_NC/TB10/Data_wfm/run629_200V_200V_220V.root 
+nmedia 5
+Run 620
+StartingTrig 0
+Nchannel  36
+MaxEvent  -1
+nMCP 28
+txt  /Volumes/TOSHIBA_NC/TB10/Tracks/620.txt 
+ana /Volumes/TOSHIBA_NC/TB10/Data_wfm/run620_210V_210V_220V.root 
+nmedia 5
+Run 626
+StartingTrig 0
+Nchannel  36
+MaxEvent  -1
+nMCP 28
+txt  /Volumes/TOSHIBA_NC/TB10/Tracks/626.txt 
+ana /Volumes/TOSHIBA_NC/TB10/Data_wfm/run626_240V_240V_220V.root 
+nmedia 5
+Run 627
+StartingTrig 0
+Nchannel  36
+MaxEvent  -1
+nMCP 28
+txt  /Volumes/TOSHIBA_NC/TB10/Tracks/627.txt 
+ana /Volumes/TOSHIBA_NC/TB10/Data_wfm/run627_240V_240V_220V.root 
+nmedia 5
+Run -1
+
+
+txt  /Volumes/TOSHIBA_NC/TB10/Tracks/630.txt 
+ana /Volumes/TOSHIBA_NC/TB10/Data_wfm/run630_180V_180V_220V.root
+
+
+txt  /Users/nicolo/work/GruppoV_UFSD/DataAnalysis/RSD/Digitizer/TB10_CERN_May26/Tracks/620.txt 
+ana /Users/nicolo/work/GruppoV_UFSD/DataAnalysis/RSD/Digitizer/TB10_CERN_May26/Data_wfm/run620_210V_210V_220V.root
+
+
+txt  /Users/nicolo/work/GruppoV_UFSD/DataAnalysis/RSD/Digitizer/TB10_CERN_May26/Tracks/620.txt 
+ana /Users/nicolo/work/GruppoV_UFSD/DataAnalysis/RSD/Digitizer/TB10_CERN_May26/Data_wfm/run620_210V_210V_220V.root 
+
+txt /Users/nicolo/work/GruppoV_UFSD/DataAnalysis/RSD/Digitizer/TB10_CERN_May26/Tracks/618.txt 
+ana /Users/nicolo/work/GruppoV_UFSD/DataAnalysis/RSD/Digitizer/TB10_CERN_May26/Data_wfm/run618_220V_220V_220V.root
+
+
+txt /Users/nicolo/work/GruppoV_UFSD/DataAnalysis/RSD/Digitizer/TB10_CERN_May26/Tracks/536.txt 
+ana /Users/nicolo/work/GruppoV_UFSD/DataAnalysis/RSD/Digitizer/TB10_CERN_May26/Data/run536_235V_190V_220V_220V.root
+
+txt /Users/nicolo/work/GruppoV_UFSD/DataAnalysis/RSD/Digitizer/TB10_CERN_May26/533_test.txt 
+ana  /Users/nicolo/work/GruppoV_UFSD/DataAnalysis/RSD/Digitizer/TB10_CERN_May26/test_runDCRSD.root 
+
+
+Run 604
+StartingTrig 0
+Nchannel  18
+MaxEvent  -1
+nMCP 14
+txt /Users/nicolo/work/GruppoV_UFSD/DataAnalysis/RSD/Digitizer/TB8_DESY_FNAL/Tracks/tracks_604_withDUT.csv
+ana /Volumes/TOSHIBAEXT/TB8/raw/500W15/W15_A1_DC22_280V_Run604_Tracks_DUT.root
+nmedia 5
+Run 605
+StartingTrig 0
+Nchannel  18
+MaxEvent  -1
+nMCP 14
+txt /Users/nicolo/work/GruppoV_UFSD/DataAnalysis/RSD/Digitizer/TB8_DESY_FNAL/Tracks/tracks_605_withDUT.csv
+ana /Volumes/TOSHIBAEXT/TB8/raw/500W15/W15_A1_DC22_240V_Run605_Tracks_DUT.root
+nmedia 5
+Run 606
+StartingTrig 0
+Nchannel  18
+MaxEvent  -1
+nMCP 14
+txt /Users/nicolo/work/GruppoV_UFSD/DataAnalysis/RSD/Digitizer/TB8_DESY_FNAL/Tracks/tracks_606_withDUT.csv
+ana /Volumes/TOSHIBAEXT/TB8/raw/500W15/W15_A1_DC22_240V_Run606_Tracks_DUT.root
+nmedia 5
+Run 607
+StartingTrig 0
+Nchannel  18
+MaxEvent  -1
+nMCP 14
+txt /Users/nicolo/work/GruppoV_UFSD/DataAnalysis/RSD/Digitizer/TB8_DESY_FNAL/Tracks/tracks_607_withDUT.csv
+ana /Volumes/TOSHIBAEXT/TB8/raw/500W15/W15_A1_DC22_220V_Run607_tracks_DUT.root
+nmedia 5
+Run 608
+StartingTrig 0
+Nchannel  18
+MaxEvent  -1
+nMCP 14
+txt /Users/nicolo/work/GruppoV_UFSD/DataAnalysis/RSD/Digitizer/TB8_DESY_FNAL/Tracks/tracks_608_withDUT.csv
+ana /Volumes/TOSHIBAEXT/TB8/raw/500W15/W15_A1_DC22_290V_Run608_Tracks_DUT.root
+nmedia 5
+Run 609
+StartingTrig 0
+Nchannel  18
+MaxEvent  -1
+nMCP 14
+txt /Users/nicolo/work/GruppoV_UFSD/DataAnalysis/RSD/Digitizer/TB8_DESY_FNAL/Tracks/tracks_609_withDUT.csv
+ana /Volumes/TOSHIBAEXT/TB8/raw/500W15/W15_A1_DC22_300V_Run609_Tracks_DUT.root
+nmedia 5
+Run -1
+
+
+Max_number_channels 18
+FWaveform 0
+Run 101
+StartingTrig 0
+Nchannel  18
+MaxEvent  -1
+nMCP 8
+txt /Users/nicolo/work/GruppoV_UFSD/DataAnalysis/RSD/Digitizer/TB8_DESY_FNAL/Tracks/tracks_101_withDUT.csv
+ana /Volumes/TOSHIBAEXT/TB8/raw/300W3/W3_A6_DC11_290V_Run101_Tracks_DUT.root
+nmedia 5
+Run 103
+StartingTrig 0
+Nchannel  18
+MaxEvent  -1
+nMCP 8
+txt /Users/nicolo/work/GruppoV_UFSD/DataAnalysis/RSD/Digitizer/TB8_DESY_FNAL/Tracks/tracks_103_withDUT.csv
+ana /Volumes/TOSHIBAEXT/TB8/raw/300W3/W3_A6_DC11_300V_Run103_Tracks_DUT.root
+nmedia 5
+Run 104
+StartingTrig 0
+Nchannel  18
+MaxEvent  -1
+nMCP 8
+txt /Users/nicolo/work/GruppoV_UFSD/DataAnalysis/RSD/Digitizer/TB8_DESY_FNAL/Tracks/tracks_104_withDUT.csv
+ana /Volumes/TOSHIBAEXT/TB8/raw/300W3/W3_A6_DC11_300V_Run104_Tracks_DUT.root
+nmedia 5
+Run 106
+StartingTrig 0
+Nchannel  18
+MaxEvent  -1
+nMCP 8
+txt /Users/nicolo/work/GruppoV_UFSD/DataAnalysis/RSD/Digitizer/TB8_DESY_FNAL/Tracks/tracks_106_withDUT.csv
+ana /Volumes/TOSHIBAEXT/TB8/raw/300W3/W3_A6_DC11_240V_Run106_Tracks_DUT.root
+nmedia 5
+Run 108
+StartingTrig 0
+Nchannel  18
+MaxEvent  -1
+nMCP 8
+txt /Users/nicolo/work/GruppoV_UFSD/DataAnalysis/RSD/Digitizer/TB8_DESY_FNAL/Tracks/tracks_108_withDUT.csv
+ana /Volumes/TOSHIBAEXT/TB8/raw/300W3/W3_A6_DC11_270V_Run108_Tracks_DUT.root
+nmedia 5
+Run 110
+StartingTrig 0
+Nchannel  18
+MaxEvent  -1
+nMCP 8
+txt /Users/nicolo/work/GruppoV_UFSD/DataAnalysis/RSD/Digitizer/TB8_DESY_FNAL/Tracks/tracks_110_withDUT.csv
+ana /Volumes/TOSHIBAEXT/TB8/raw/300W3/W3_A6_DC11_280V_Run110_Tracks_DUT.root
+nmedia 5
+Run -1
+
+
+
+
+
+Max_number_channels 18
+FWaveform 0
+Run 401
+StartingTrig 0
+Nchannel  18
+MaxEvent  -1
+nMCP 7
+txt /Users/nicolo/work/GruppoV_UFSD/DataAnalysis/RSD/Digitizer/TB8_DESY_FNAL/Tracks/tracks_401_withDUT.csv
+ana /Volumes/TOSHIBAEXT/TB8/raw/1000W15/W15_C44_DC16_290V_Run401_Tracks_DUT.root
+nmedia 5
+Run 402
+StartingTrig 0
+Nchannel  18
+MaxEvent  -1
+nMCP 7
+txt /Users/nicolo/work/GruppoV_UFSD/DataAnalysis/RSD/Digitizer/TB8_DESY_FNAL/Tracks/tracks_402_withDUT.csv
+ana /Volumes/TOSHIBAEXT/TB8/raw/1000W15/W15_C44_DC16_290V_Run402_Tracks_DUT.root
+nmedia 5
+Run 403
+StartingTrig 0
+Nchannel  18
+MaxEvent  -1
+nMCP 7
+txt /Users/nicolo/work/GruppoV_UFSD/DataAnalysis/RSD/Digitizer/TB8_DESY_FNAL/Tracks/tracks_403_withDUT.csv
+ana /Volumes/TOSHIBAEXT/TB8/raw/1000W15/W15_C44_DC16_280V_Run403_Tracks_DUT.root
+nmedia 5
+Run 404
+StartingTrig 0
+Nchannel  18
+MaxEvent  -1
+nMCP 7
+txt /Users/nicolo/work/GruppoV_UFSD/DataAnalysis/RSD/Digitizer/TB8_DESY_FNAL/Tracks/tracks_404_withDUT.csv
+ana /Volumes/TOSHIBAEXT/TB8/raw/1000W15/W15_C44_DC16_220V_Run404_Tracks_DUT.root
+nmedia 5
+Run 405
+StartingTrig 0
+Nchannel  18
+MaxEvent  -1
+nMCP 7
+txt /Users/nicolo/work/GruppoV_UFSD/DataAnalysis/RSD/Digitizer/TB8_DESY_FNAL/Tracks/tracks_405_withDUT.csv
+ana /Volumes/TOSHIBAEXT/TB8/raw/1000W15/W15_C44_DC16_250V_Run405_Tracks_DUT.root
+nmedia 5
+Run 406
+StartingTrig 0
+Nchannel  18
+MaxEvent  -1
+nMCP 7
+txt /Users/nicolo/work/GruppoV_UFSD/DataAnalysis/RSD/Digitizer/TB8_DESY_FNAL/Tracks/tracks_406_withDUT.csv
+ana /Volumes/TOSHIBAEXT/TB8/raw/1000W15/W15_C44_DC16_280V_Run406_Tracks_DUT.root
+nmedia 5
+Run 407
+StartingTrig 0
+Nchannel  18
+MaxEvent  -1
+nMCP 7
+txt /Users/nicolo/work/GruppoV_UFSD/DataAnalysis/RSD/Digitizer/TB8_DESY_FNAL/Tracks/tracks_407_withDUT.csv
+ana /Volumes/TOSHIBAEXT/TB8/raw/1000W15/W15_C44_DC16_220V_Run407_Tracks_DUT.root
+nmedia 5
+Run 408
+StartingTrig 0
+Nchannel  18
+MaxEvent  -1
+nMCP 7
+txt /Users/nicolo/work/GruppoV_UFSD/DataAnalysis/RSD/Digitizer/TB8_DESY_FNAL/Tracks/tracks_408_withDUT.csv
+ana /Volumes/TOSHIBAEXT/TB8/raw/1000W15/W15_C44_DC16_180V_Run408_Tracks_DUT.root
+nmedia 5
+Run 411
+StartingTrig 0
+Nchannel  18
+MaxEvent  -1
+nMCP 7
+txt /Users/nicolo/work/GruppoV_UFSD/DataAnalysis/RSD/Digitizer/TB8_DESY_FNAL/Tracks/tracks_411_withDUT.csv
+ana /Volumes/TOSHIBAEXT/TB8/raw/1000W15/W15_C44_DC16_300V_Run411_Tracks_DUT.root
+nmedia 5
+Run 412
+StartingTrig 0
+Nchannel  18
+MaxEvent  -1
+nMCP 7
+txt /Users/nicolo/work/GruppoV_UFSD/DataAnalysis/RSD/Digitizer/TB8_DESY_FNAL/Tracks/tracks_412_withDUT.csv
+ana /Volumes/TOSHIBAEXT/TB8/raw/1000W15/W15_C44_DC16_300V_Run412_Tracks_DUT.root
+nmedia 5
+Run -1
+
+
+
+
+
+
+Max_number_channels 18
+FWaveform 0
+Run 1950
+StartingTrig 0
+Nchannel  18
+MaxEvent  100
+nMCP  -1
+txt /Users/nicolo/work/GruppoV_UFSD/DataAnalysis/RSD/Digitizer/TB7_DESY_FNAL/Tracks/tracks_1950.csv
+ana /Volumes/TOSHIBAEXT/TB7/500W3/W3_A1_DC5FNAL_1950.root
+nmedia 5
+Run 1951
+StartingTrig 0
+Nchannel  18
+MaxEvent  100
+nMCP  -1
+txt /Users/nicolo/work/GruppoV_UFSD/DataAnalysis/RSD/Digitizer/TB7_DESY_FNAL/Tracks/tracks_1951.csv
+ana /Volumes/TOSHIBAEXT/TB7/500W3/W3_A1_DC5FNAL_1951.root
+nmedia 5
+Run 1960
+StartingTrig 0
+Nchannel  18
+MaxEvent  100
+nMCP  -1
+txt /Users/nicolo/work/GruppoV_UFSD/DataAnalysis/RSD/Digitizer/TB7_DESY_FNAL/Tracks/tracks_1960.csv
+ana /Volumes/TOSHIBAEXT/TB7/500W3/W3_A1_DC5FNAL_1960.root
+nmedia 5
+Run 1961
+StartingTrig 0
+Nchannel  18
+MaxEvent  100
+nMCP  -1
+txt /Users/nicolo/work/GruppoV_UFSD/DataAnalysis/RSD/Digitizer/TB7_DESY_FNAL/Tracks/tracks_1961.csv
+ana /Volumes/TOSHIBAEXT/TB7/500W3/W3_A1_DC5FNAL_1961.root
+nmedia 1
+Run 1962
+StartingTrig 0
+Nchannel  18
+MaxEvent  100
+nMCP  -1
+txt /Users/nicolo/work/GruppoV_UFSD/DataAnalysis/RSD/Digitizer/TB7_DESY_FNAL/Tracks/tracks_1962.csv
+ana /Volumes/TOSHIBAEXT/TB7/500W3/W3_A1_DC5FNAL_1962.root
+nmedia 1
+Run 1965
+StartingTrig 0
+Nchannel  18
+MaxEvent  100
+nMCP  2
+txt /Users/nicolo/work/GruppoV_UFSD/DataAnalysis/RSD/Digitizer/TB7_DESY_FNAL/Tracks/tracks_1965.csv
+ana /Volumes/TOSHIBAEXT/TB7/500W3/W3_A1_DC5FNAL_1965.root
+nmedia 1
+Run -1
+
+
+
+
+
+Max_number_channels 18
+FWaveform 0
+Run 2102
+StartingTrig 0
+Nchannel  18
+MaxEvent  -1
+nMCP -1
+txt /Users/nicolo/work/GruppoV_UFSD/DataAnalysis/RSD/Digitizer/TB7_DESY_FNAL/Tracks/tracks_2102.csv
+ana /Volumes/TOSHIBAEXT/TB7/1000W3/W3_C44_DC7FNAL_2102.root 
+nmedia 1
+Run 2101
+StartingTrig 0
+Nchannel  18
+MaxEvent  -1
+nMCP -1
+txt /Users/nicolo/work/GruppoV_UFSD/DataAnalysis/RSD/Digitizer/TB7_DESY_FNAL/Tracks/tracks_2101.csv
+ana /Volumes/TOSHIBAEXT/TB7/1000W3/W3_C44_DC7FNAL_2101.root 
+nmedia 1
+Run -1
+
+
+
+
+Max_number_channels 18
+FWaveform 0
+Run 1950
+StartingTrig 0
+Nchannel  18
+MaxEvent  -1
+nMCP  -1
+txt /Users/nicolo/work/GruppoV_UFSD/DataAnalysis/RSD/Digitizer/TB7_DESY_FNAL/Tracks/tracks_1950.csv
+ana /Volumes/TOSHIBAEXT/TB7/500W3/W3_A1_DC5FNAL_1950.root
+nmedia 1
+Run 1951
+StartingTrig 0
+Nchannel  18
+MaxEvent  -1
+nMCP  -1
+txt /Users/nicolo/work/GruppoV_UFSD/DataAnalysis/RSD/Digitizer/TB7_DESY_FNAL/Tracks/tracks_1951.csv
+ana /Volumes/TOSHIBAEXT/TB7/500W3/W3_A1_DC5FNAL_1951.root
+nmedia 1
+Run 1960
+StartingTrig 0
+Nchannel  18
+MaxEvent  -1
+nMCP  -1
+txt /Users/nicolo/work/GruppoV_UFSD/DataAnalysis/RSD/Digitizer/TB7_DESY_FNAL/Tracks/tracks_1960.csv
+ana /Volumes/TOSHIBAEXT/TB7/500W3/W3_A1_DC5FNAL_1960.root
+nmedia 1
+Run 1961
+StartingTrig 0
+Nchannel  18
+MaxEvent  -1
+nMCP  -1
+txt /Users/nicolo/work/GruppoV_UFSD/DataAnalysis/RSD/Digitizer/TB7_DESY_FNAL/Tracks/tracks_1961.csv
+ana /Volumes/TOSHIBAEXT/TB7/500W3/W3_A1_DC5FNAL_1961.root
+nmedia 1
+Run 1962
+StartingTrig 0
+Nchannel  18
+MaxEvent  -1
+nMCP  -1
+txt /Users/nicolo/work/GruppoV_UFSD/DataAnalysis/RSD/Digitizer/TB7_DESY_FNAL/Tracks/tracks_1962.csv
+ana /Volumes/TOSHIBAEXT/TB7/500W3/W3_A1_DC5FNAL_1962.root
+nmedia 1
+Run 1965
+StartingTrig 0
+Nchannel  18
+MaxEvent  -1
+nMCP  2
+txt /Users/nicolo/work/GruppoV_UFSD/DataAnalysis/RSD/Digitizer/TB7_DESY_FNAL/Tracks/tracks_1965.csv
+ana /Volumes/TOSHIBAEXT/TB7/500W3/W3_A1_DC5FNAL_1965.root
+nmedia 1
+Run -1
+
+
+
+
+
+Max_number_channels 18
+FWaveform 0
+Run 2102
+StartingTrig 0
+Nchannel  18
+MaxEvent  -1
+nMCP -1
+txt /Users/nicolo/work/GruppoV_UFSD/DataAnalysis/RSD/Digitizer/TB7_DESY_FNAL/Tracks/tracks_2102.csv
+ana /Volumes/TOSHIBAEXT/TB7/1000W3/W3_C44_DC7FNAL_2102.root 
+nmedia 1
+Run 2101
+StartingTrig 0
+Nchannel  18
+MaxEvent  -1
+nMCP -1
+txt /Users/nicolo/work/GruppoV_UFSD/DataAnalysis/RSD/Digitizer/TB7_DESY_FNAL/Tracks/tracks_2101.csv
+ana /Volumes/TOSHIBAEXT/TB7/1000W3/W3_C44_DC7FNAL_2101.root 
+nmedia 1
+Run -1
+
+
+
+
+Max_number_channels 18
+FWaveform 0
+Run 101
+StartingTrig 0
+Nchannel  18
+MaxEvent  -1
+nMCP 8
+txt /Users/nicolo/work/GruppoV_UFSD/DataAnalysis/RSD/Digitizer/TB8_DESY_FNAL/Tracks/tracks_101_withDUT.csv
+ana /Volumes/TOSHIBAEXT/TB8/raw/300W3/W3_A6_DC11_290V_Run101_Tracks_DUT.root
+nmedia 1
+Run 103
+StartingTrig 0
+Nchannel  18
+MaxEvent  -1
+nMCP 8
+txt /Users/nicolo/work/GruppoV_UFSD/DataAnalysis/RSD/Digitizer/TB8_DESY_FNAL/Tracks/tracks_103_withDUT.csv
+ana /Volumes/TOSHIBAEXT/TB8/raw/300W3/W3_A6_DC11_300V_Run103_Tracks_DUT.root
+nmedia 1
+Run 104
+StartingTrig 0
+Nchannel  18
+MaxEvent  -1
+nMCP 8
+txt /Users/nicolo/work/GruppoV_UFSD/DataAnalysis/RSD/Digitizer/TB8_DESY_FNAL/Tracks/tracks_104_withDUT.csv
+ana /Volumes/TOSHIBAEXT/TB8/raw/300W3/W3_A6_DC11_300V_Run104_Tracks_DUT.root
+nmedia 1
+Run 106
+StartingTrig 0
+Nchannel  18
+MaxEvent  -1
+nMCP 8
+txt /Users/nicolo/work/GruppoV_UFSD/DataAnalysis/RSD/Digitizer/TB8_DESY_FNAL/Tracks/tracks_106_withDUT.csv
+ana /Volumes/TOSHIBAEXT/TB8/raw/300W3/W3_A6_DC11_240V_Run106_Tracks_DUT.root
+nmedia 1
+Run 108
+StartingTrig 0
+Nchannel  18
+MaxEvent  -1
+nMCP 8
+txt /Users/nicolo/work/GruppoV_UFSD/DataAnalysis/RSD/Digitizer/TB8_DESY_FNAL/Tracks/tracks_108_withDUT.csv
+ana /Volumes/TOSHIBAEXT/TB8/raw/300W3/W3_A6_DC11_270V_Run108_Tracks_DUT.root
+nmedia 1
+Run 110
+StartingTrig 0
+Nchannel  18
+MaxEvent  -1
+nMCP 8
+txt /Users/nicolo/work/GruppoV_UFSD/DataAnalysis/RSD/Digitizer/TB8_DESY_FNAL/Tracks/tracks_110_withDUT.csv
+ana /Volumes/TOSHIBAEXT/TB8/raw/300W3/W3_A6_DC11_280V_Run110_Tracks_DUT.root
+nmedia 1
+Run -1
+
+
+
+
+Max_number_channels 18
+FWaveform 0
+Run 301
+StartingTrig 0
+Nchannel  18
+MaxEvent  -1
+nMCP 7
+txt /Users/nicolo/work/GruppoV_UFSD/DataAnalysis/RSD/Digitizer/TB8_DESY_FNAL/Tracks/tracks_301_withDUT.csv
+ana /Volumes/TOSHIBAEXT/TB8/raw/1000W3/W3_C44_DC19_250V_Run301_Tracks_DUT.root
+nmedia 1
+Run 302
+StartingTrig 0
+Nchannel  18
+MaxEvent  -1
+nMCP 7
+txt /Users/nicolo/work/GruppoV_UFSD/DataAnalysis/RSD/Digitizer/TB8_DESY_FNAL/Tracks/tracks_302_withDUT.csv
+ana /Volumes/TOSHIBAEXT/TB8/raw/1000W3/W3_C44_DC19_235V_Run302_Tracks_DUT.root
+nmedia 1
+Run 304
+StartingTrig 0
+Nchannel  18
+MaxEvent  -1
+nMCP 7
+txt /Users/nicolo/work/GruppoV_UFSD/DataAnalysis/RSD/Digitizer/TB8_DESY_FNAL/Tracks/tracks_304_withDUT.csv
+ana /Volumes/TOSHIBAEXT/TB8/raw/1000W3/W3_C44_DC19_220V_Run304_Tracks_DUT.root
+nmedia 1
+Run -1
+
+
+
+
+
+
+
+Max_number_channels 18
+FWaveform 0
+Run 301
+StartingTrig 0
+Nchannel  18
+MaxEvent  -1
+nMCP 7
+txt /Users/nicolo/work/GruppoV_UFSD/DataAnalysis/RSD/Digitizer/TB8_DESY_FNAL/Tracks/tracks_301_withDUT.csv
+ana /Volumes/TOSHIBAEXT/TB8/raw/1000W3/W3_C44_DC19_250V_Run301_Tracks_DUT.root
+nmedia 1
+Run 302
+StartingTrig 0
+Nchannel  18
+MaxEvent  -1
+nMCP 7
+txt /Users/nicolo/work/GruppoV_UFSD/DataAnalysis/RSD/Digitizer/TB8_DESY_FNAL/Tracks/tracks_302_withDUT.csv
+ana /Volumes/TOSHIBAEXT/TB8/raw/1000W3/W3_C44_DC19_235V_Run302_Tracks_DUT.root
+nmedia 1
+Run 304
+StartingTrig 0
+Nchannel  18
+MaxEvent  -1
+nMCP 7
+txt /Users/nicolo/work/GruppoV_UFSD/DataAnalysis/RSD/Digitizer/TB8_DESY_FNAL/Tracks/tracks_304_withDUT.csv
+ana /Volumes/TOSHIBAEXT/TB8/raw/1000W3/W3_C44_DC19_220V_Run304_Tracks_DUT.root
+nmedia 1
+Run -1
+
+
+
+Run 604
+StartingTrig 0
+Nchannel  18
+MaxEvent  -1
+nMCP 14
+txt /Users/nicolo/work/GruppoV_UFSD/DataAnalysis/RSD/Digitizer/TB8_DESY_FNAL/Tracks/tracks_604_withDUT.csv
+ana /Volumes/TOSHIBAEXT/TB8/raw/500W15/W15_A1_DC22_280V_Run604_Tracks_DUT.root
+nmedia 1
+Run 605
+
+
+
+
+
+
+Run 401
+StartingTrig 0
+Nchannel  18
+MaxEvent  -1
+nMCP 7
+txt /Users/nicolo/work/GruppoV_UFSD/DataAnalysis/RSD/Digitizer/TB8_DESY_FNAL/Tracks/tracks_401_withDUT.csv
+ana /Volumes/TOSHIBAEXT/TB8/raw/1000W15/W15_C44_DC16_290V_Run401_Tracks_DUT.root
+nmedia 1
+Run 402
+StartingTrig 0
+Nchannel  18
+MaxEvent  -1
+nMCP 7
+txt /Users/nicolo/work/GruppoV_UFSD/DataAnalysis/RSD/Digitizer/TB8_DESY_FNAL/Tracks/tracks_402_withDUT.csv
+ana /Volumes/TOSHIBAEXT/TB8/raw/1000W15/W15_C44_DC16_290V_Run402_Tracks_DUT.root
+nmedia 1
+Run 403
+StartingTrig 0
+Nchannel  18
+MaxEvent  -1
+nMCP 7
+txt /Users/nicolo/work/GruppoV_UFSD/DataAnalysis/RSD/Digitizer/TB8_DESY_FNAL/Tracks/tracks_403_withDUT.csv
+ana /Volumes/TOSHIBAEXT/TB8/raw/1000W15/W15_C44_DC16_280V_Run403_Tracks_DUT.root
+nmedia 1
+Run 404
+StartingTrig 0
+Nchannel  18
+MaxEvent  -1
+nMCP 7
+txt /Users/nicolo/work/GruppoV_UFSD/DataAnalysis/RSD/Digitizer/TB8_DESY_FNAL/Tracks/tracks_404_withDUT.csv
+ana /Volumes/TOSHIBAEXT/TB8/raw/1000W15/W15_C44_DC16_220V_Run404_Tracks_DUT.root
+nmedia 1
+Run 405
+StartingTrig 0
+Nchannel  18
+MaxEvent  -1
+nMCP 7
+txt /Users/nicolo/work/GruppoV_UFSD/DataAnalysis/RSD/Digitizer/TB8_DESY_FNAL/Tracks/tracks_405_withDUT.csv
+ana /Volumes/TOSHIBAEXT/TB8/raw/1000W15/W15_C44_DC16_250V_Run405_Tracks_DUT.root
+nmedia 1
+Run 406
+StartingTrig 0
+Nchannel  18
+MaxEvent  -1
+nMCP 7
+txt /Users/nicolo/work/GruppoV_UFSD/DataAnalysis/RSD/Digitizer/TB8_DESY_FNAL/Tracks/tracks_406_withDUT.csv
+ana /Volumes/TOSHIBAEXT/TB8/raw/1000W15/W15_C44_DC16_280V_Run406_Tracks_DUT.root
+nmedia 1
+Run 407
+StartingTrig 0
+Nchannel  18
+MaxEvent  -1
+nMCP 7
+txt /Users/nicolo/work/GruppoV_UFSD/DataAnalysis/RSD/Digitizer/TB8_DESY_FNAL/Tracks/tracks_407_withDUT.csv
+ana /Volumes/TOSHIBAEXT/TB8/raw/1000W15/W15_C44_DC16_220V_Run407_Tracks_DUT.root
+nmedia 1
+Run 408
+StartingTrig 0
+Nchannel  18
+MaxEvent  -1
+nMCP 7
+txt /Users/nicolo/work/GruppoV_UFSD/DataAnalysis/RSD/Digitizer/TB8_DESY_FNAL/Tracks/tracks_408_withDUT.csv
+ana /Volumes/TOSHIBAEXT/TB8/raw/1000W15/W15_C44_DC16_180V_Run408_Tracks_DUT.root
+nmedia 1
+Run 411
+StartingTrig 0
+Nchannel  18
+MaxEvent  -1
+nMCP 7
+txt /Users/nicolo/work/GruppoV_UFSD/DataAnalysis/RSD/Digitizer/TB8_DESY_FNAL/Tracks/tracks_411_withDUT.csv
+ana /Volumes/TOSHIBAEXT/TB8/raw/1000W15/W15_C44_DC16_300V_Run411_Tracks_DUT.root
+nmedia 1
+Run 412
+StartingTrig 0
+Nchannel  18
+MaxEvent  -1
+nMCP 7
+txt /Users/nicolo/work/GruppoV_UFSD/DataAnalysis/RSD/Digitizer/TB8_DESY_FNAL/Tracks/tracks_412_withDUT.csv
+ana /Volumes/TOSHIBAEXT/TB8/raw/1000W15/W15_C44_DC16_300V_Run412_Tracks_DUT.root
+nmedia 1
+Run -1
+
+
+
+
+Max_number_channels 18
+FWaveform 0
+Run 2001
+StartingTrig 0
+Nchannel  18
+MaxEvent  -1
+nMCP 7
+txt /Users/nicolo/work/GruppoV_UFSD/DataAnalysis/RSD/Digitizer/TB7_DESY_FNAL/Tracks/tracks_2001.csv
+ana /Volumes/TOSHIBAEXT/TB7/Tr500W3/W3_A16_DC2FNAL_2001.root
+nmedia 1
+Run 2002
+StartingTrig 0
+Nchannel  18
+MaxEvent  -1
+nMCP 7
+txt /Users/nicolo/work/GruppoV_UFSD/DataAnalysis/RSD/Digitizer/TB7_DESY_FNAL/Tracks/tracks_2002.csv
+ana /Volumes/TOSHIBAEXT/TB7/Tr500W3/W3_A16_DC2FNAL_2002.root
+nmedia 1
+Run 2004
+StartingTrig 0
+Nchannel  18
+MaxEvent  -1
+nMCP 7
+txt /Users/nicolo/work/GruppoV_UFSD/DataAnalysis/RSD/Digitizer/TB7_DESY_FNAL/Tracks/tracks_2004.csv
+ana /Volumes/TOSHIBAEXT/TB7/Tr500W3/W3_A16_DC2FNAL_2004.root
+nmedia 1
+Run 2005
+StartingTrig 0
+Nchannel  18
+MaxEvent  -1
+nMCP 7
+txt /Users/nicolo/work/GruppoV_UFSD/DataAnalysis/RSD/Digitizer/TB7_DESY_FNAL/Tracks/tracks_2005.csv
+ana /Volumes/TOSHIBAEXT/TB7/Tr500W3/W3_A16_DC2FNAL_2005.root
+nmedia 1
+Run 2006
+StartingTrig 0
+Nchannel  18
+MaxEvent  -1
+nMCP 7
+txt /Users/nicolo/work/GruppoV_UFSD/DataAnalysis/RSD/Digitizer/TB7_DESY_FNAL/Tracks/tracks_2006.csv
+ana /Volumes/TOSHIBAEXT/TB7/Tr500W3/W3_A16_DC2FNAL_2006.root
+nmedia 1
+Run 2007
+StartingTrig 0
+Nchannel  18
+MaxEvent  -1
+nMCP 7
+txt /Users/nicolo/work/GruppoV_UFSD/DataAnalysis/RSD/Digitizer/TB7_DESY_FNAL/Tracks/tracks_2007.csv
+ana /Volumes/TOSHIBAEXT/TB7/Tr500W3/W3_A16_DC2FNAL_2007.root
+nmedia 1
+Run -1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
