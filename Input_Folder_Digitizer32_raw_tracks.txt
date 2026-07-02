@@ -5,12 +5,17 @@ StartingTrig 0
 Nchannel  36
 MaxEvent  -1
 nMCP 0
-txt /Volumes/Expansion/TB11/Tracks/run3.txt
-ana /Volumes/Expansion/TB11/Data/Run3_DCsquare_500um_new_board1_tracker3_240V_20C.root 
+txt /Volumes/Expansion/TB11/Tracks/run8.txt
+ana /Volumes/Expansion/TB11/Data/Run8_DCsquare_500um_new_board1_tracker8_140V_20C_HG.root
 nmedia 1
 Run -1
 
 
+txt /Volumes/Expansion/TB11/Tracks/run5.txt
+ana /Volumes/Expansion/TB11/Data/Run5_DCsquare_500um_new_board1_tracker5_240V_20C_HG.root
+
+ana
+/Volumes/Expansion/TB11/Data/Run3_DCsquare_500um_new_board1_tracker3_240V_20C.root
 txt   /Volumes/TOSHIBA_NC/TB10/Tracks_new/627_100um_window.csv
 ana /Volumes/TOSHIBA_NC/TB10/Data_wfm/run627_240V_240V_220V.root 
 
